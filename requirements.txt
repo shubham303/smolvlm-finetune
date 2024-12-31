@@ -1,0 +1,7 @@
+pillow
+gradio
+accelerate
+datasets
+peft
+bitsandbytes
+tensorboard

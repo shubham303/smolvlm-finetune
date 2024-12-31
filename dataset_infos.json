@@ -1,0 +1,36 @@
+{
+  "docutor-ai": {
+    "description": "Document QA dataset for information extraction",
+    "citation": "",
+    "homepage": "",
+    "license": "mit",
+    "features": {
+      "id": {
+        "dtype": "string",
+        "_type": "Value"
+      },
+      "question": {
+        "dtype": "string",
+        "_type": "Value"
+      },
+      "answer": {
+        "dtype": "string",
+        "_type": "Value"
+      },
+      "image_path": {
+        "dtype": "string",
+        "_type": "Value"
+      },
+      "image_id": {
+        "dtype": "string",
+        "_type": "Value"
+      },
+      "image": {
+        "_type": "Image"
+      }
+    },
+    "supervised_keys": null,
+    "task_templates": [],
+    "builder_name": "docutor_ai"
+  }
+}
